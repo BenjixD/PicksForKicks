@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "173919535340",
+    "firebase_url": "https://picksforkicks-33de6.firebaseio.com",
+    "project_id": "picksforkicks-33de6",
+    "storage_bucket": "picksforkicks-33de6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173919535340:android:6390daa70bf96a33",
+        "android_client_info": {
+          "package_name": "dotstar.picksforkicks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173919535340-nvsu4htpvtm5eacs08bnqgu8a39h63vc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dotstar.picksforkicks",
+            "certificate_hash": "DD3A1C2374E700E2CCE7A26EDC4ABCA0C9515607"
+          }
+        },
+        {
+          "client_id": "173919535340-pni0j530en38igan8djsjucnn4rjj5r2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFHuAnRuUJYeledl8KN5YuyYi9pwDWIzE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173919535340-pni0j530en38igan8djsjucnn4rjj5r2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
