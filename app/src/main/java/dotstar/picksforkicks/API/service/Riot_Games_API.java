@@ -1,6 +1,7 @@
 package dotstar.picksforkicks.API.service;
 
 import android.util.Log;
+import com.google.gson.*;
 
 import dotstar.picksforkicks.API.model.*;
 import retrofit.http.GET;
@@ -27,7 +28,7 @@ public class Riot_Games_API {
     public interface Service_Endpoint{
         String SERVICE_ENDPOINT = "https://na.api.pvp.net";
         @GET("/api/lol/{url}")
-        Observable<Json_Data> getData(
+        Observable<JsonObject> getData(
                 @Path("url") String url,
                 @Query("api_key") String api_key
         );
@@ -48,7 +49,7 @@ public class Riot_Games_API {
 
     //The callback for getApi
     public interface Callback{
-        void onSuccess(Json_Data result);
+        void onSuccess(JsonObject result);
     }
 
     //Generic getApi Data function (Use Poly to transform Json_Data -> [Your Desired Json Model])
@@ -57,7 +58,7 @@ public class Riot_Games_API {
         service.getData(url, key)
             .subscribeOn(Schedulers.newThread())
             .observeOn(AndroidSchedulers.mainThread())
-            .subscribe(new Subscriber<Json_Data>() {
+            .subscribe(new Subscriber<JsonObject>() {
                 @Override
                 public final void onCompleted() {
                     // do nothing
@@ -70,7 +71,7 @@ public class Riot_Games_API {
                 }
 
                 @Override
-                public final void onNext(Json_Data response) {
+                public final void onNext(JsonObject response) {
                     cb.onSuccess(response);
                 }
         });

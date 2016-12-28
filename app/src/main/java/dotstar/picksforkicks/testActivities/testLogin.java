@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.gson.JsonObject;
 
 import dotstar.picksforkicks.*;
 import dotstar.picksforkicks.API.model.Json_Data;
@@ -69,9 +70,8 @@ public class testLogin extends GoogleSignIn {
         final TextView reftv = tv;
         Riot_Games_API.getApi(url, new Riot_Games_API.Callback(){
             @Override
-            public void onSuccess(Json_Data result){
-                Summoner_Info si = (Summoner_Info) result;
-                reftv.setText(si.getName());
+            public void onSuccess(JsonObject result){
+                reftv.setText(result.toString());
             }
         });
     }

@@ -15,11 +15,19 @@
       },
       "oauth_client": [
         {
-          "client_id": "173919535340-nvsu4htpvtm5eacs08bnqgu8a39h63vc.apps.googleusercontent.com",
+          "client_id": "173919535340-43ieqmhec80vo4ub83mam3ufi08ti17q.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "dotstar.picksforkicks",
-            "certificate_hash": "DD3A1C2374E700E2CCE7A26EDC4ABCA0C9515607"
+            "certificate_hash": "BBC89C83A75E698EA31400C39454A3BEEE58C2BD"
+          }
+        },
+        {
+          "client_id": "173919535340-9pkecta1p3ajbisdsdfhu3q0ar7f18ak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dotstar.picksforkicks",
+            "certificate_hash": "F9A752D698EDBC28F1831EAF8474BD6E45F81878"
           }
         },
         {
