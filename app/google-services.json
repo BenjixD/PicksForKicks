@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "173919535340-efrisa15c3n0p10rvtml28jis47schu9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dotstar.picksforkicks",
+            "certificate_hash": "E67180CEFFC24A790588E5A4329F23A4B3C66904"
+          }
+        },
+        {
           "client_id": "173919535340-43ieqmhec80vo4ub83mam3ufi08ti17q.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
