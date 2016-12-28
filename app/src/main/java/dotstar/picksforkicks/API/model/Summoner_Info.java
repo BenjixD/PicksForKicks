@@ -1,4 +1,4 @@
-package dotstar.picksforkicks.API;
+package dotstar.picksforkicks.API.model;
 
 /**
  * Created by Aerosol on 2016-12-27.

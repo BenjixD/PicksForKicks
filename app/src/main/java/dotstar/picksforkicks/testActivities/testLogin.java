@@ -13,6 +13,9 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 import dotstar.picksforkicks.*;
+import dotstar.picksforkicks.API.model.Json_Data;
+import dotstar.picksforkicks.API.model.Summoner_Info;
+import dotstar.picksforkicks.API.service.Riot_Games_API;
 
 public class testLogin extends GoogleSignIn {
 
@@ -56,5 +59,20 @@ public class testLogin extends GoogleSignIn {
         //Add the new textview to layout
         RelativeLayout rl = (RelativeLayout) findViewById(R.id.activity_test_login);
         rl.addView(tv);
+
+        //Try out the new retrofit API calls!
+        tv = new TextView(this);
+        rl.addView(tv);
+        String name = "Aerostar";
+        String url = "na/v1.4/summoner/by-name/"+ name;
+        Log.d(TAG, url);
+        final TextView reftv = tv;
+        Riot_Games_API.getApi(url, new Riot_Games_API.Callback(){
+            @Override
+            public void onSuccess(Json_Data result){
+                Summoner_Info si = (Summoner_Info) result;
+                reftv.setText(si.getName());
+            }
+        });
     }
 }
