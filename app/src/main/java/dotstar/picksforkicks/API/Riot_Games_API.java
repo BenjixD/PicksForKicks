@@ -1,5 +1,8 @@
 package dotstar.picksforkicks.API;
 
+import android.app.Service;
+import android.database.Observable;
+
 /**
  * Created by Benjamin on 2016-12-27.
  */
@@ -18,68 +21,49 @@ public class Riot_Games_API {
         return service;
     }
 
-    //SUMMONER NAME -> SUMMONER INFO
-    public interface Summoner_Name_To_Info{
+    public interface Service_Endpoint{
         String SERVICE_ENDPOINT = "https://na.api.pvp.net/api/lol/";
+    }
 
-        @GET("/{region}/{version}/summoner/by-name/{name}?api_key={key}")
-        Observable<Summoner_Info> getInfo(
-                @Path("region") String region,
-                @Path("version") String version,
-                @Path("name") String name,
-                @Path("key") String api_key
+    //SUMMONER NAME -> SUMMONER INFO
+    public interface Summoner_Name_To_Info extends Service_Endpoint{
+        String SERVICE_ENDPOINT = "https://na.api.pvp.net/api/lol/";
+        //@GET("/{region}/{version}/summoner/by-name/{name}?api_key={key}")
+        @GET("/{url}")
+        Observable<Summoner_Info> getData(
+                @Path("url") String url
         );
     }
+
+    public static void getApi(Class<? extends Service_Endpoint> clazz, String url){
+        Class<? extends Service_Endpoint> service = Riot_Games_API.createRetrofitService(clazz.getClass(), Service_Endpoint.SERVICE_ENDPOINT);
+            service.getData(url)
+                    .subscribeOn(Schedulers.newThread())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe(new Subscriber<Json_Data>() {
+                        @Override
+                        public final void onCompleted() {
+                            // do nothing
+                        }
+
+                        @Override
+                        public final void onError(Throwable e) {
+                            Log.e("GithubDemo", e.getMessage());
+                        }
+
+                        @Override
+                        public final void onNext(Json_Data response) {
+
+                        }
+                    });
+
+    }
+
+
 }
 
-public class Summoner_Info {
-
-    private Integer id;
-    private String name;
-    private Integer profileIconId;
-    private Integer revisionDate;
-    private Integer summonerLevel;
+public class Json_Data{
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Integer getProfileIconId() {
-        return profileIconId;
-    }
-
-    public void setProfileIconId(Integer profileIconId) {
-        this.profileIconId = profileIconId;
-    }
-
-    public Integer getRevisionDate() {
-        return revisionDate;
-    }
-
-    public void setRevisionDate(Integer revisionDate) {
-        this.revisionDate = revisionDate;
-    }
-
-    public Integer getSummonerLevel() {
-        return summonerLevel;
-    }
-
-    public void setSummonerLevel(Integer summonerLevel) {
-        this.summonerLevel = summonerLevel;
-    }
 
     public Map<String, Object> getAdditionalProperties() {
         return this.additionalProperties;
@@ -88,4 +72,5 @@ public class Summoner_Info {
     public void setAdditionalProperty(String name, Object value) {
         this.additionalProperties.put(name, value);
     }
+
 }
