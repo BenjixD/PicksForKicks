@@ -76,6 +76,15 @@ public class Riot_Games_API {
                 }
         });
     }
+
+    /*
+    //Get Summoner Id via Summoner Name
+    public static String get_Summoner_Id(String region, String summonerName){
+        String url = "  /api/lol/"+region + "/v1.4/summoner/by-name/" + summonerName;
+
+        getApi(url, (result)->{
+            System.out.println(result.get("id"));
+        });
+    }
+*/
 }
-
-

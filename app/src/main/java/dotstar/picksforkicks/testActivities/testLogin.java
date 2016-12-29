@@ -55,7 +55,7 @@ public class testLogin extends GoogleSignIn {
     private void testActivity(){
         //Create textview of username
         TextView tv = new TextView(this);
-        tv.setText(account.getDisplayName());
+        //tv.setText(account.getDisplayName());
 
         //Add the new textview to layout
         RelativeLayout rl = (RelativeLayout) findViewById(R.id.activity_test_login);
@@ -71,7 +71,7 @@ public class testLogin extends GoogleSignIn {
         Riot_Games_API.getApi(url, new Riot_Games_API.Callback(){
             @Override
             public void onSuccess(JsonObject result){
-                reftv.setText(result.toString());
+                reftv.setText(result.get("id").toString());
             }
         });
     }

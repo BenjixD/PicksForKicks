@@ -3,507 +3,264 @@
 
     <item
         is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="35a01d7cb4ff6b5976777bf5827fd8f206fb8757">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.2.1_2d3eecf7668fc6f672a6710d700135d8efed7d8e\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e1bec33f1ec5367e25676638b430b9d585f3dbec">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-auth-9.2.1_a331cbdf454c03a0d634406413e95092a2f8f5d6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-25.1.0_84a11e5498a922222e601c6755c89131da905268.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.2.1_cf114de048fe7d66d21fec1c2d3e2747d8914f98\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Benjamin\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.0.17\1a653d18a3e41fae66a473d172649a0625cff107\rxjava-1.0.17.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1a653d18a3e41fae66a473d172649a0625cff107">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\rxjava-1.0.17_8c1e5ca8aa31f96e450b1aa2235f86779efcd24e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Benjamin\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\library-1.0.19_ec51c80fbaa57be34d654845b909c3305c613f18.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="144ad3d8fc9b5bcb58423b286918ed5da8fdc730">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8e43f42b3c7cc47c5735d1758c3df86f9b4929c3\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.android.support-support-core-ui-25.1.0_c5447c4afcc6518801d6ff181a171e19ed4b1d80.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_b53daeaacda93f9b7063854fee4717b619943601\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.google.firebase-firebase-analytics-9.2.1_67e4f731a53b5239f3693ac81d3a71c56b6fe177.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Benjamin\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a681c044244d9fc375198588297a39ba78028423">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-1.9.0_8f573df14789e7bea6289d75045e8dde324658d9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.2.1_4752b00415dbb86cd76cebffa2ca1837fffa450e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.2.1\jars\classes.jar"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="3627eacd7f7cafb5e8ae683992e7b2f9b7dcab1a">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.2.1_bd3de03b6b99e3659c5a1d5a550545f14aa16672\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Benjamin\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\gson-2.3.1_624531ded8e6a817824fc5e5ab5977d0ed08029d.jar" />
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.2.1_bf1770067ab0aa85409660b0336c43bc38cf1a84\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_821acb6e06f4ab630266349bffa17badc18d1979\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.2.1_707afb3b06e36ae55045e84ccfe23a95d228e001\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2506c5893e125e2f9cfc522378e893620c21b109">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.2.1_4f88831731b1a911e5e69626bbbb04e88d64fb7a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_1879d444cc2e3dc018083999946fff9f9f8c179c\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Benjamin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\support-annotations-25.1.0_2064cdaa365b020b10f8435db7b4525e881f1548.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_07b60ad867946e2f583650f796455597371742a5\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.android.support-support-media-compat-25.1.0_ddafc4cb3fde6ce15c88558d2b75eeb4694711de.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\jars\classes.jar"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="d41b5d21cc9dd7d210f0ae82ac509ba7f091d611">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.2.1_880c20261c9096718d049675589ae0f9ca900a7e\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.android.support-support-compat-25.1.0_614ffdefd847bf078764fa38cc5fb9779f8c2900.jar" />
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.2.1_ae9cb2e182353037f2910fbe62506578ce75a475\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ee409046028e5657a2a69edaa2eba00d6511a74c">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.2.1_800cb888584ce989cedbe5a5a797abee5cb8a5e1\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-tasks-9.2.1_0b678ff357362ddd46fd8091d41403917e906c60.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Benjamin\.gradle\caches\modules-2\files-2.1\io.reactivex\rxandroid\0.23.0\9c437ce12df38b57fde4e3bb38ef6859f85ff737\rxandroid-0.23.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9c437ce12df38b57fde4e3bb38ef6859f85ff737">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxandroid-0.23.0_29b79a30cb47474f053c95256845adeb2c6b1181\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="48917c60ea81213ea39cbd7123996a5401106dc3">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.2.1_4f2e13ddc355471181da7a1e9d646f43193cc09d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_84a11e5498a922222e601c6755c89131da905268\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.google.firebase-firebase-analytics-impl-9.2.1_cf114de048fe7d66d21fec1c2d3e2747d8914f98.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="35a01d7cb4ff6b5976777bf5827fd8f206fb8757">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.google.firebase-firebase-auth-module-9.2.1_2d3eecf7668fc6f672a6710d700135d8efed7d8e.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e1bec33f1ec5367e25676638b430b9d585f3dbec">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.2.1_a331cbdf454c03a0d634406413e95092a2f8f5d6\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ee409046028e5657a2a69edaa2eba00d6511a74c">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.google.firebase-firebase-auth-common-9.2.1_800cb888584ce989cedbe5a5a797abee5cb8a5e1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-basement-9.2.1_4752b00415dbb86cd76cebffa2ca1837fffa450e.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Benjamin\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jar="C:\Users\iceya\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-1.0.19_ec51c80fbaa57be34d654845b909c3305c613f18\classes.dex" />
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-1.0.19_95fa3b61603b12dc445f98577c0d94462dd46ef0\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_4c2dba444adb3341e1d58dbebe1d8d3587bdde25\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_c5447c4afcc6518801d6ff181a171e19ed4b1d80\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.2.1_67e4f731a53b5239f3693ac81d3a71c56b6fe177\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-25.1.0_b53daeaacda93f9b7063854fee4717b619943601.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Benjamin\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a681c044244d9fc375198588297a39ba78028423">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\retrofit-1.9.0_8f573df14789e7bea6289d75045e8dde324658d9.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Benjamin\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.0.17\1a653d18a3e41fae66a473d172649a0625cff107\rxjava-1.0.17.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1a653d18a3e41fae66a473d172649a0625cff107">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.0.17_8c1e5ca8aa31f96e450b1aa2235f86779efcd24e\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3627eacd7f7cafb5e8ae683992e7b2f9b7dcab1a">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.google.firebase-firebase-common-9.2.1_bd3de03b6b99e3659c5a1d5a550545f14aa16672.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Benjamin\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_624531ded8e6a817824fc5e5ab5977d0ed08029d\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2506c5893e125e2f9cfc522378e893620c21b109">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.google.firebase-firebase-auth-9.2.1_4f88831731b1a911e5e69626bbbb04e88d64fb7a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d41b5d21cc9dd7d210f0ae82ac509ba7f091d611">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.google.firebase-firebase-iid-9.2.1_880c20261c9096718d049675589ae0f9ca900a7e.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="719a78fa5f301937523ce43b995f043c192b6787">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e7ea37015bffb72ce16720dc85c94db11294dfc8\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-base-9.2.1_707afb3b06e36ae55045e84ccfe23a95d228e001.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Benjamin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jar="C:\Users\iceya\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_2064cdaa365b020b10f8435db7b4525e881f1548\classes.dex" />
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_85b6ce475dcb9b87d3feddc715fbd7833d90f01a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jar="C:\Users\iceya\.gradle\caches\modules-2\files-2.1\io.reactivex\rxandroid\0.23.0\9c437ce12df38b57fde4e3bb38ef6859f85ff737\rxandroid-0.23.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_ddafc4cb3fde6ce15c88558d2b75eeb4694711de\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-25.1.0_1879d444cc2e3dc018083999946fff9f9f8c179c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-25.1.0_821acb6e06f4ab630266349bffa17badc18d1979.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.android.support-support-fragment-25.1.0_4c2dba444adb3341e1d58dbebe1d8d3587bdde25.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-25.1.0_07b60ad867946e2f583650f796455597371742a5.jar" />
+        sha1="9c437ce12df38b57fde4e3bb38ef6859f85ff737">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxandroid-0.23.0_6eb98adafe8195cc05e38a877f32b1bda582cd97\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.2.1_9641627007ed5fa4d7154bd3050774b61d41d7c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2506c5893e125e2f9cfc522378e893620c21b109">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.2.1_7695340b732bb314360c212fdf7565c6841ff7da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="35a01d7cb4ff6b5976777bf5827fd8f206fb8757">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.2.1_e49f457224dfd4b0cb76295efab8bcaf1f45c188\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_18219d7c4490126da57c83517e8bc7861a00feb5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_614ffdefd847bf078764fa38cc5fb9779f8c2900\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="48917c60ea81213ea39cbd7123996a5401106dc3">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-auth-base-9.2.1_4f2e13ddc355471181da7a1e9d646f43193cc09d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Benjamin\.gradle\caches\modules-2\files-2.1\io.reactivex\rxandroid\0.23.0\9c437ce12df38b57fde4e3bb38ef6859f85ff737\rxandroid-0.23.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9c437ce12df38b57fde4e3bb38ef6859f85ff737">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\pre-dexed\release\rxandroid-0.23.0_29b79a30cb47474f053c95256845adeb2c6b1181.jar" />
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_c426899b6089400a5cd42525cf47ade0ef05bbad\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\projects\Android\PicksForKicks\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\jars\classes.jar"
+        jar="C:\Users\iceya\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.0.17\1a653d18a3e41fae66a473d172649a0625cff107\rxjava-1.0.17.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1a653d18a3e41fae66a473d172649a0625cff107">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.0.17_9934176f0b4c33a20c17dc41ecebeb441eb51bc2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_53a86560a7f31c1a504588395563be4e6fc363ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_c273c237503076365f2e1a6fb844dc3286167031\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_241b9477a607ec0af9505feeaa226178050f9b0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_2d1145c373105754f274d36847b5588318437169\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_880bc5a957fc9c9c65b433ca87719d27b9fa3c31\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.2.1_a9897ecaac90bbfd564763c00e474fb5cd9d87c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_10395351e5341d9739131129f295ee45db199019\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_d0069996d82fa2e0d7c8a8725473e8c4cc306c93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
-        <dex dex="C:\projects\Android\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.2.1_0b678ff357362ddd46fd8091d41403917e906c60\classes.dex" />
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.2.1_f83dee3cbe164f80ef1b5f371cccb751497828a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6e56024e4351e09a2a4d3417be995cf4b9c1535">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_bdbcc2c39c61cd0fba8075321a9b9628ef0d5531\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.2.1_23282cc2abc2fdec155a27a46b68da25f8d0bf77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-1.9.0_c67ec036109d4b25ef9c2630c7f2b29cd2c19531\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_bbbb09e7757cb9e8860853e0822eb983bdeaecb0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee409046028e5657a2a69edaa2eba00d6511a74c">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.2.1_fca682807679a67d335a27bfe21257521e2e1a05\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.2.1_c63bc37aa341e29282b898c373b7a57300993392\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e1bec33f1ec5367e25676638b430b9d585f3dbec">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.2.1_76116c23756e549472490f2f48ca6b2c684fa927\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="48917c60ea81213ea39cbd7123996a5401106dc3">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.2.1_ac0bc53b3a18e9a8b4b6bb3de53b4ce986a7ac15\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6c2e8862f5557ad782aaf7a59f2b54e45ae8cd3e">
+        <dex dex="C:\Users\iceya\Desktop\Project\PicksForKicks\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4ff38376a2511b0f0fd3b7516a3419698a4d16c8\classes.dex" />
     </item>
 
 </items>
