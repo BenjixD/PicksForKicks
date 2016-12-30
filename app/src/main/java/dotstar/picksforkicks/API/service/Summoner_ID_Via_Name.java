@@ -15,14 +15,11 @@ public class Summoner_ID_Via_Name {
 
     //get summonerId by passing a function and summoner name
     public static void get_SummonerId_via_SummonerName(String region, String summonerName){
-        String reg = region;
-        String name  = summonerName;
-        String url ="";
-        final String summoner_id;
 
+        String url ="";
         try {
             //encode to sanitize user input before passing to Riot Api
-            url = URLEncoder.encode(reg, "UTF-8") + "/v1.4/summoner/by-name/" + URLEncoder.encode(name, "UTF-8");
+            url = URLEncoder.encode(region, "UTF-8") + "/v1.4/summoner/by-name/" + URLEncoder.encode(summonerName, "UTF-8");
 
             Riot_Games_API.getApi(url, new Riot_Games_API.Callback() {
                 @Override
