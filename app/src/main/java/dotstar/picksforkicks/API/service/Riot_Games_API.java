@@ -27,7 +27,7 @@ public class Riot_Games_API {
      */
     public interface Service_Endpoint{
         String SERVICE_ENDPOINT = "https://na.api.pvp.net";
-        @GET("/api/lol/{url}")
+        @GET("/{url}")
         Observable<JsonObject> getData(
                 @Path("url") String url,
                 @Query("api_key") String api_key

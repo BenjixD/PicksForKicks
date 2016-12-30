@@ -55,24 +55,10 @@ public class testLogin extends GoogleSignIn {
     private void testActivity(){
         //Create textview of username
         TextView tv = new TextView(this);
-        //tv.setText(account.getDisplayName());
+        tv.setText(account.getDisplayName());
 
         //Add the new textview to layout
         RelativeLayout rl = (RelativeLayout) findViewById(R.id.activity_test_login);
         rl.addView(tv);
-
-        //Try out the new retrofit API calls!
-        tv = new TextView(this);
-        rl.addView(tv);
-        String name = "Aerostar";
-        String url = "na/v1.4/summoner/by-name/"+ name;
-        Log.d(TAG, url);
-        final TextView reftv = tv;
-        Riot_Games_API.getApi(url, new Riot_Games_API.Callback(){
-            @Override
-            public void onSuccess(JsonObject result){
-                reftv.setText(result.get("id").toString());
-            }
-        });
     }
 }

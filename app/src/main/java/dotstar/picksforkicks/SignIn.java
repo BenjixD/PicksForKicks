@@ -22,6 +22,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 
+import dotstar.picksforkicks.testActivities.testApiCalls;
 import dotstar.picksforkicks.testActivities.testLogin;
 
 
@@ -94,7 +95,7 @@ public class SignIn extends GoogleSignIn {
 
 
     private void moveToMainMenuActivity(){
-        Intent intent = new Intent(this, testLogin.class);
+        Intent intent = new Intent(this, testApiCalls.class);
         startActivity(intent);
     }
     //-----------------------------------------------------------------------------//

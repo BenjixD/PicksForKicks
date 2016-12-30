@@ -23,7 +23,7 @@ public class Summoner_ID_Via_Name {
         String url ="";
         try {
             //encode to sanitize user input before passing to Riot Api
-            url = URLEncoder.encode(region, "UTF-8") + "/v1.4/summoner/by-name/" + URLEncoder.encode(summonerName, "UTF-8");
+            url = "api/lol/" + URLEncoder.encode(region, "UTF-8") + "/v1.4/summoner/by-name/" + URLEncoder.encode(summonerName, "UTF-8");
 
             Riot_Games_API.getApi(url, new Riot_Games_API.Callback() {
                 @Override

@@ -22,7 +22,7 @@ public class Champion_Data_Via_Champion_Id {
 
         try {
             //encode to sanitize user input before passing to Riot Api
-            url = "/api/lol/static-data/" + URLEncoder.encode(region, "UTF-8") + "/v1.2/champion/" + URLEncoder.encode(championId, "UTF-8");
+            url = "api/lol/static-data/" + URLEncoder.encode(region, "UTF-8") + "/v1.2/champion/" + URLEncoder.encode(championId, "UTF-8");
             Riot_Games_API.getApi(url, new Riot_Games_API.Callback() {
                 @Override
                 //store result in callback passed

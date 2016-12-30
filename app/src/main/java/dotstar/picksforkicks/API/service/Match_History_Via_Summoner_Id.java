@@ -23,7 +23,7 @@ public class Match_History_Via_Summoner_Id {
 
         try {
             //encode to sanitize user input before passing to Riot Api
-            url = "/api/lol/" + URLEncoder.encode(region, "UTF-8") + "/v2.2/matchlist/by-summoner/" + URLEncoder.encode(summonerId, "UTF-8");
+            url = "api/lol/" + URLEncoder.encode(region, "UTF-8") + "/v1.3/game/by-summoner/" + URLEncoder.encode(summonerId, "UTF-8") + "/recent";
             Riot_Games_API.getApi(url, new Riot_Games_API.Callback() {
                 @Override
                 //store result in callback passed

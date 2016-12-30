@@ -25,6 +25,9 @@ public class Game_Handler {
         mDatabase = FirebaseDatabase.getInstance().getReference();
     }
 
+    //Set of Strings of the database hierarchy
+    private static final String summoner = "summoner";
+
     //[Get SummonerList]
     public interface callbackSummoner{
         void onSuccess(String result);
@@ -62,7 +65,7 @@ public class Game_Handler {
                 Log.d(this.getClass().toString(), "loadSummonerList:onCancelled", databaseError.toException());
             }
         };
-        mDatabase.addListenerForSingleValueEvent(vel);
+        mDatabase.child(summoner).addListenerForSingleValueEvent(vel);
     }
     //[end Get SummonerList]
 }
