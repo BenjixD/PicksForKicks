@@ -17,7 +17,7 @@ public class Match_History_Via_Summoner_Id {
     }
 
     //get match by passing a function and summoner name
-    public static void get_Match_History_Via_Summoner_Name(String region, String summonerId){
+    public static void get_Match_History_Via_Summoner_Name(String region, String summonerId, final Callback cb){
         String reg = region;
         String id  = summonerId;
         String url ="";
@@ -27,8 +27,9 @@ public class Match_History_Via_Summoner_Id {
             url = "/api/lol/" + URLEncoder.encode(reg, "UTF-8") + "/v2.2/matchlist/by-summoner/" + URLEncoder.encode(summonerId, "UTF-8");
             Riot_Games_API.getApi(url, new Riot_Games_API.Callback() {
                 @Override
+                //store result in callback passed
                 public void onSuccess(JsonObject result) {
-                    cb.onSuccess(response)
+                    cb.onSuccess(result)
                 }
             });
 
