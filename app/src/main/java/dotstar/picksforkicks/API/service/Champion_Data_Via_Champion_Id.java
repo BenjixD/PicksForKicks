@@ -16,7 +16,7 @@ public class Champion_Data_Via_Champion_Id {
         void onSuccess(JsonObject result);
     }
 
-    //get match by passing a function and summoner name
+    //get champion data by passing a callback and champion id
     public static void get_Champion_Data_Via_Champion_Id(String region, String championId, final Callback cb){
         String url ="";
 

@@ -13,8 +13,12 @@ import com.google.gson.JsonObject;
 
 public class Summoner_ID_Via_Name {
 
+    public interface Callback{
+        void onSuccess(String result);
+    }
+
     //get summonerId by passing a function and summoner name
-    public static void get_SummonerId_via_SummonerName(String region, String summonerName){
+    public static void get_SummonerId_via_SummonerName(String region, String summonerName, final Callback cb){
 
         String url ="";
         try {
@@ -24,7 +28,8 @@ public class Summoner_ID_Via_Name {
             Riot_Games_API.getApi(url, new Riot_Games_API.Callback() {
                 @Override
                 public void onSuccess(JsonObject result) {
-                    result.get("id").getAsString();
+
+                    cb.onSuccess(result.get("id").getAsString());
                 }
             });
 
