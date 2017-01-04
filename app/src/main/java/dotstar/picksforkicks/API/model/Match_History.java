@@ -18,8 +18,13 @@ import java.util.Set;
 
 public class Match_History {
     public enum gameType{
+        CUSTOM ("CUSTOM"),
+        BOT (" BOT"),
         RANKED_FLEX_SR ("RANKED_FLEX_SR"),
-        RANKED_SOLO ("RANKED_SOLO_5x5"),
+        RANKED_FLEX_TT ("RANKED_FLEX_TT"),
+        RANKED_SOLO_5x5 ("RANKED_SOLO_5x5"),
+        RANKED_PREMADE_3x3 ("RANKED_PREMADE_3x3"),
+        RANKED_PREMADE_5x5 ("RANKED_PREMADE_5x5"),
         NORMAL ("NORMAL"),
         NONE ("NONE");
         //Theres More but I dont Know em
