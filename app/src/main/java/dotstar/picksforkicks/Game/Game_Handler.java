@@ -7,6 +7,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.gson.JsonObject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +27,7 @@ public class Game_Handler {
     }
 
     //Set of Strings of the database hierarchy
-    private static final String summoner = "summoner";
+    private static final String summoners = "summoners";
 
     //[Get SummonerList]
     public interface callbackSummoner{
@@ -65,7 +66,13 @@ public class Game_Handler {
                 Log.d(this.getClass().toString(), "loadSummonerList:onCancelled", databaseError.toException());
             }
         };
-        mDatabase.child(summoner).addListenerForSingleValueEvent(vel);
+        mDatabase.child(summoners).addListenerForSingleValueEvent(vel);
     }
     //[end Get SummonerList]
+
+    //[Write Game data]
+    public void writeGameData(JsonObject match){
+        
+    }
+    //[end Write Game data]
 }

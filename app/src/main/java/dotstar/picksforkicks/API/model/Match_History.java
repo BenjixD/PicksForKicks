@@ -45,6 +45,7 @@ public class Match_History {
     private static final String fellowPlayersId = "fellowPlayers";
     private static final String teamId = "teamId";
     private static final String championId = "championId";
+    private static final String gameId = "gameId";
 
     public static JsonObject getSpecificGameData(JsonObject history, gameType gt, double startTime, double threshold){
         //Get the Json array of games
@@ -111,6 +112,15 @@ public class Match_History {
             Map.Entry<String, JsonArray> pair = itr2.next();
             response.add(pair.getKey(), pair.getValue());
         }
+        return response;
+    }
+
+    // Given a game from match history get the Match Id(Game Id)
+    public static JsonObject getMatchIdGameData(JsonObject game){
+        //Create the response
+        JsonObject response = new JsonObject();
+        response.add(gameId, game.get(gameId));
+
         return response;
     }
 }
