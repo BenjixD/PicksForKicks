@@ -1,6 +1,7 @@
 package dotstar.picksforkicks.API.model;
 
 import android.support.annotation.NonNull;
+import android.util.Log;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -46,6 +47,8 @@ public class Match_History {
     private static final String teamId = "teamId";
     private static final String championId = "championId";
     private static final String gameId = "gameId";
+    private static final String win = "win";
+    private static final String stats = "stats";
 
     public static JsonObject getSpecificGameData(JsonObject history, gameType gt, double startTime, double threshold){
         //Get the Json array of games
@@ -74,6 +77,19 @@ public class Match_History {
         return response;
     }
 
+    public static int getWinningTeam(JsonObject game){
+        Log.d("winner", game.get(stats).getAsJsonObject().get(win).getAsString());
+        if(game.get(stats).getAsJsonObject().get(win).getAsBoolean()){
+            return game.get(teamId).getAsInt();
+        }else{
+            if(game.get(teamId).getAsInt() == 100){
+                return 200;
+            }else{
+                return 100;
+            }
+        }
+    }
+
     public static JsonObject getListOfChampionsGameData(JsonObject game){
         //Get the JsonArray of players
         JsonArray players = game.getAsJsonArray(fellowPlayersId);
@@ -96,7 +112,7 @@ public class Match_History {
 
             //Otherwise the team exists in the map and we just add the new guy in
             else{
-                JsonArray team = teams.get(player.get(teamId));
+                JsonArray team = teams.get(player.get(teamId).getAsString());
                 JsonObject champion = new JsonObject();
 
                 champion.add(championId, player.get(championId));
@@ -104,6 +120,13 @@ public class Match_History {
                 teams.put(player.get(teamId).getAsString(), team);
             }
         }
+
+        //Add the current player too!
+        JsonArray team = teams.get(game.get(teamId).getAsString());
+        JsonObject champion = new JsonObject();
+        champion.add(championId, game.get(championId));
+        team.add(champion);
+        teams.put(game.get(teamId).getAsString(), team);
 
         //Finished the Map & Now we'll transform it back into a JsonObject
         JsonObject response = new JsonObject();

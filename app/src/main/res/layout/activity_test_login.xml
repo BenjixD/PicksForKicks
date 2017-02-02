@@ -10,4 +10,97 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="dotstar.picksforkicks.testActivities.testLogin">
 
+    <TextView
+        android:text="Champions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"
+        android:id="@+id/team200"
+        android:layout_alignBaseline="@+id/team100"
+        android:layout_alignBottom="@+id/team100"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="right"/>
+
+    <TextView
+        android:text="VS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vs"
+        android:layout_alignBaseline="@+id/team200"
+        android:layout_alignBottom="@+id/team200"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="164dp"
+        android:id="@+id/team100"
+        android:text="Champions"
+        android:gravity="left"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Blue Team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blueteam"
+        android:layout_marginBottom="32dp"
+        android:layout_above="@+id/vs"
+        android:layout_alignLeft="@+id/team100"
+        android:layout_alignStart="@+id/team100"
+        android:gravity="left"/>
+
+    <TextView
+        android:text="Red Team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/redteam"
+        android:gravity="right"
+        android:layout_alignBaseline="@+id/blueteam"
+        android:layout_alignBottom="@+id/blueteam"
+        android:layout_alignRight="@+id/team200"
+        android:layout_alignEnd="@+id/team200" />
+
+    <Button
+        android:text="Red Team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/red"
+        android:layout_alignBaseline="@+id/blue"
+        android:layout_alignBottom="@+id/blue"
+        android:layout_alignRight="@+id/team200"
+        android:layout_alignEnd="@+id/team200"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <Button
+        android:text="Blue Team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:id="@+id/blue"
+        tools:text="Blue Team"
+        android:elevation="0dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/team100"
+        android:layout_alignLeft="@+id/team100"
+        android:layout_alignStart="@+id/team100" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/red"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:id="@+id/answer"
+        android:text="should be empty" />
+
 </RelativeLayout>
